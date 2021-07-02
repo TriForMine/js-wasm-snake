@@ -1,3 +1,4 @@
-import * as wasm from "hello-wasm-pack";
+import { GameManager } from "./src/game-manager";
 
-wasm.greet();
+const gameManager = new GameManager();
+gameManager.run();
